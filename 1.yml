@@ -1,0 +1,366 @@
+version: 1
+subjects:
+- name: 语文
+  simplified_name: 语
+  teacher: 甄仲
+  room: ''
+- name: 数学
+  simplified_name: 数
+  teacher: 张硕
+  room: ''
+- name: 英语
+  simplified_name: 英
+  teacher: 强颖
+  room: ''
+- name: 历史
+  simplified_name: 历
+  teacher: 王轩
+  room: ''
+- name: 政治
+  simplified_name: 政
+  teacher: 孟欣
+  room: ''
+- name: 物理
+  simplified_name: 物
+  teacher: 韩代书
+  room: ''
+- name: 化学
+  simplified_name: 化
+  teacher: ''
+  room: ''
+- name: 生物
+  simplified_name: 生
+  teacher: ''
+  room: ''
+- name: 地理
+  simplified_name: 地
+  teacher: ''
+  room: ''
+- name: 信息技术
+  simplified_name: 信
+  teacher: ''
+  room: ''
+- name: 体育
+  simplified_name: 体
+  teacher: 韩繁
+  room: ''
+- name: 自习
+  simplified_name: 自
+  teacher: ''
+  room: ''
+- name: 通用技术
+  simplified_name: 技
+  teacher: ''
+  room: ''
+- name: 音乐
+  simplified_name: 音
+  teacher: ''
+  room: ''
+- name: 美术
+  simplified_name: 美
+  teacher: ''
+  room: ''
+- name: 选修课
+  simplified_name: 选
+  teacher: ''
+  room: ''
+- name: 社团
+  simplified_name: 社
+  teacher: ''
+  room: ''
+- name: 心理
+  simplified_name: 心
+  teacher: ''
+  room: ''
+- name: 早读
+  simplified_name: 早
+  teacher: ''
+  room: ''
+- name: 班会
+  simplified_name: 班
+  teacher: 张硕
+  room: ''
+- name: 周测
+  simplified_name: 测
+  teacher: ''
+  room: ''
+schedules:
+- name: 新课表
+  classes:
+  - subject: 语文
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 化学
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 语文
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 数学
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 数学
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 英语
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 体育
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 物理
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 英语
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 2
+  weeks: all
+- name: 新课表
+  classes:
+  - subject: 政治
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 体育
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 英语
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 化学
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 语文
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 物理
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 政治
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 语文
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 1
+  weeks: odd
+- name: 新课表
+  classes:
+  - subject: 英语
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 化学
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 英语
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 英语
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 语文
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 语文
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 班会
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 历史
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 3
+  weeks: odd
+- name: 新课表
+  classes:
+  - subject: 英语
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 化学
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 英语
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 英语
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 语文
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 语文
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 班会
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 政治
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 3
+  weeks: even
+- name: 新课表
+  classes:
+  - subject: 数学
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 物理
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 语文
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 体育
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 英语
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 历史
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 历史
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 化学
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 4
+  weeks: odd
+- name: 新课表
+  classes:
+  - subject: 数学
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 物理
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 语文
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 体育
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 英语
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 历史
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 历史
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 物理
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 4
+  weeks: even
+- name: 新课表
+  classes:
+  - subject: 化学
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 政治
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 物理
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 历史
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 化学
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 英语
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 数学
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 数学
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 5
+  weeks: odd
+- name: 新课表
+  classes:
+  - subject: 物理
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 政治
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 语文
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 物理
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 政治
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 化学
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 英语
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 数学
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 数学
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 5
+  weeks: even
+- name: 新课表
+  classes:
+  - subject: 历史
+    start_time: 07:40:00
+    end_time: 07:58:00
+  - subject: 体育
+    start_time: 08:00:00
+    end_time: 08:46:00
+  - subject: 数学
+    start_time: 09:00:00
+    end_time: 09:46:00
+  - subject: 英语
+    start_time: 10:15:00
+    end_time: 11:01:00
+  - subject: 化学
+    start_time: 11:15:00
+    end_time: 12:01:00
+  - subject: 语文
+    start_time: 14:30:00
+    end_time: 15:16:00
+  - subject: 物理
+    start_time: 15:30:00
+    end_time: 16:16:00
+  - subject: 政治
+    start_time: 16:45:00
+    end_time: 17:31:00
+  - subject: 语文
+    start_time: 17:40:00
+    end_time: 18:41:00
+  enable_day: 1
+  weeks: even

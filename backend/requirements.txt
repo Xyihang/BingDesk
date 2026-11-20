@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+aiosqlite
+pydantic
+pydantic-settings
+httpx
+apscheduler
+loguru
+python-multipart
+aiofiles
+pillow
+pywin32
+greenlet
+gevent
