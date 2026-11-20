@@ -326,7 +326,7 @@ export default function Settings() {
               />
             </Form.Item>
 
-            <Form.Item name="auto_start" valuePropName="checked" style={{ marginBottom: 0 }}>
+            <Form.Item style={{ marginBottom: 0 }}>
               <div className="setting-row">
                 <div className="setting-main">
                   <span className="info-icon">
